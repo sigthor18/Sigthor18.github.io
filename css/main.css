@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-shadow: 2px 2px #444;
+}
+
+header {
+    width: 100%;
+    background-color: #4E4E56;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-left: 0;
+    padding-bottom: 2em;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 100;
+    font-size: 1.5em;
+    border: none;
+    
+}
+
+header a {
+    text-decoration: none;
+}
+header h1 {
+    padding-left: 1em;
+    text-shadow: 2px 2px #111;
+}
+
+footer {
+    box-sizing: border-box;
+    padding: 1em;
+    float: left;
+    width: 100%;
+    background-color: #DA635D;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer h4{
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+body {
+    display: block;
+}
+
+.parent {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.child-right {
+    background:green;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bodydrasl {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hlid {
+    box-sizing: border-box;
+    width: 20%;
+    float: left;
+    padding: 1em;
+    background-color: #B1938B;
+    min-height: 100%;
+}
+
+.hlid h2{
+    padding-bottom: 1em;
+    font-size: 2.5em;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.hlid ul {
+    list-style-type: none;
+    text-underline-position: none;
+}
+.hlid li {
+    padding-bottom: 1em;
+}
+
+.hlid a {
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.hlid a:link {
+    color: white;
+}
+.hlid a:visited {
+    color: white;
+}
+.hlid a:hover {
+    color: #999;
+}
+
+.maindalkur {
+    box-sizing: border-box;
+    width: 80%;
+    float: right;
+    padding: 1em;
+    background-color: #DCD0C0;
+}
+
+.maindalkur h1{
+    font-family: 'Cinzel Decorative', cursive;
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+}
+
+.textadalkur {
+    width: 50%;
+    float: left;
+}
+
+.textadalkur img {
+    max-width: 35em;
+    padding: 1em;
+    max-height: 35em;
+}
+
+.myndadalkur {
+    width: 50%;
+    float: left;
+}
+
+
+.adalvalhluti {
+    width: 30em;
+    float: left;
+    height: 28em;
+    padding-left: 2em;
+}
+.adalvalhluti img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
